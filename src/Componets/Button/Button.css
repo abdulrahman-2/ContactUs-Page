@@ -1,0 +1,26 @@
+.form-btton {
+  padding: 18px 10px;
+  min-width: 220px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.form-btton.right {
+  margin-left: auto;
+}
+.form-btton-primary {
+  background-color: black;
+}
+.form-btton-secondary {
+  margin: 20px 0;
+  width: 100%;
+  background-color: white;
+  color: black;
+}

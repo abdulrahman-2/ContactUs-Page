@@ -1,0 +1,16 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 72px;
+  padding: 0 10px;
+}
+nav .nav-links {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+}
+nav .nav-links li {
+  font-weight: 500;
+  font-size: 20px;
+}
